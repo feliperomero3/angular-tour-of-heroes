@@ -5,6 +5,13 @@
   width: 15em;
 }
 
+.heroes a:link, .heroes a:visited, .heroes a:hover, .heroes a:active {
+  color: #3c4f58;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .heroes li {
   cursor: pointer;
   position: relative;
