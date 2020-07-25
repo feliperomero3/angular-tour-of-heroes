@@ -1,6 +1,6 @@
 # Tour of Heroes app and tutorial
 
-[![Node.js CI][nodejs-ci-badge]][nodejs-ci]
+[![angular-tour-of-heroes-CI][angular-tour-of-heroes-CI-badge]][angular-tour-of-heroes-CI]
 [![Quality Gate Status][quality-gate-badge]][quality-gate]
 
 The Tour of Heroes app that you build helps a staffing agency manage its stable of heroes.
@@ -22,7 +22,7 @@ The app will automatically reload if you change any of the source files.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
-[nodejs-ci-badge]: https://github.com/feliperomero3/angular-tour-of-heroes/workflows/Node.js%20CI/badge.svg
-[nodejs-ci]: https://github.com/feliperomero3/angular-tour-of-heroes/actions?query=workflow%3A%22Node.js+CI%22
+[angular-tour-of-heroes-CI-badge]: https://github.com/feliperomero3/angular-tour-of-heroes/workflows/angular-tour-of-heroes-CI/badge.svg
+[angular-tour-of-heroes-CI]: https://github.com/feliperomero3/angular-tour-of-heroes/actions?query=workflow%3Aangular-tour-of-heroes-CI
 [quality-gate-badge]: https://sonarcloud.io/api/project_badges/measure?project=feliperomero3_angular-tour-of-heroes&metric=alert_status
 [quality-gate]: https://sonarcloud.io/dashboard?id=feliperomero3_angular-tour-of-heroes
