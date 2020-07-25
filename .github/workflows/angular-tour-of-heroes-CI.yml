@@ -1,4 +1,4 @@
-name: Node.js CI
+name: angular-tour-of-heroes-CI
 
 on:
   push:
