@@ -6,13 +6,12 @@ on:
   pull_request:
     branches: [ master ]
 
-env:
-  NODE_VERSION: '13.x'
-
 jobs:
   build:
     name: build
     runs-on: ubuntu-latest
+    env:
+      NODE_VERSION: '13.x'
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
