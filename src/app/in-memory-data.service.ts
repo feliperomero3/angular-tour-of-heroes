@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { InMemoryDbService } from 'angular-in-memory-web-api';
 import { Observable } from 'rxjs';
 import { Hero } from './hero';
+import { HEROES } from './mock-heroes';
 
 @Injectable({
   providedIn: 'root'
@@ -9,19 +10,7 @@ import { Hero } from './hero';
 export class InMemoryDataService implements InMemoryDbService {
 
   createDb(): {} | Observable<{}> | Promise<{}> {
-    const heroes: Hero[] = [
-      { id: 11, name: 'Dr Nice' },
-      { id: 12, name: 'Volcano' },
-      { id: 13, name: 'Bombasto' },
-      { id: 14, name: 'Celeritas' },
-      { id: 15, name: 'Magneta' },
-      { id: 16, name: 'RubberMan' },
-      { id: 17, name: 'Dynama' },
-      { id: 18, name: 'Dr IQ' },
-      { id: 19, name: 'Magma' },
-      { id: 20, name: 'Tornado' }
-    ];
-
+    const heroes: Hero[] = HEROES;
     return { heroes };
   }
 
