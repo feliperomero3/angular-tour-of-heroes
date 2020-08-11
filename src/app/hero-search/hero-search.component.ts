@@ -11,7 +11,7 @@ import { distinctUntilChanged, debounceTime, switchMap } from 'rxjs/operators';
 })
 export class HeroSearchComponent implements OnInit {
   heroes$: Observable<Hero[]>;
-  private searchTerms = new Subject<String>();
+  private searchTerms = new Subject<string>();
 
   constructor(private heroService: HeroService) { }
 
