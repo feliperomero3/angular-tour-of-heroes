@@ -21,13 +21,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "pm",
+      "",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "pm",
+      "",
       "kebab-case"
     ],
     "eofline": true,
