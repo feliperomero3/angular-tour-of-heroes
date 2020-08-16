@@ -49,7 +49,7 @@ export class HeroService {
   deleteHero(hero: Hero | number): Observable<any> {
     const id = typeof hero == 'number' ? hero : hero.id;
     return this.http.delete<Hero>(`${this.heroesUrl}/${id}`, this.httpOptions).pipe(
-      tap(() => `deleted hero ${id}`),
+      tap(() => this.log(`deleted hero ${id}`)),
       catchError(this.handleError<any>('deleteHero'))
     );
   }
